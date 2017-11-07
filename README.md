@@ -1,5 +1,7 @@
 # data-liberator 
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/sg-s/data-liberator.svg)]()
+
 Liberate data from the shackles of PDF encapsulation. 
 
 A MATLAB toolbox to extract data and fit functions by eye to data in plots of scientific papers. 

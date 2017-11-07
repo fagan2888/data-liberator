@@ -143,15 +143,15 @@ methods
 		S.x_stop = self.handles.plot_ax.Position(3);
 		S.y_stop = self.handles.plot_ax.Position(4);
 
-		ub.x_start = size(self.image_data,2);
-		ub.y_start = size(self.image_data,1);
-		ub.x_stop = 1;
-		ub.y_stop = 1;
+		ub.x_start = size(self.image_data,2)/5;
+		ub.y_start = size(self.image_data,1)/5;
+		ub.x_stop = .9;
+		ub.y_stop = .9;
 
 		lb.x_start = 1;
 		lb.y_start = 1;
-		lb.x_stop = 0;
-		lb.y_stop = 0;
+		lb.x_stop = 0.5;
+		lb.y_stop = 0.5;
 
 		if ~isempty(self.parameter_names)
 			S2 = [];
